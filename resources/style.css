@@ -1,0 +1,48 @@
+/*==========  Header ==========*/
+.header-containter {
+  position: fixed;
+  background-color: black;
+}
+.header-div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+.header-div img {
+  padding: 0px 50px 0px 10px;
+  margin-right: auto;
+}
+.header-div span a {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+/*========== Body ===========*/
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+
+/*========== OUR MISSION IMAGE ===========*/
+.ourmission {
+
+}
+
+/*========== Tea Of The Month ===========*/
+.teaofthemonth {
+
+}
