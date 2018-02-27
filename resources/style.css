@@ -43,8 +43,42 @@ body {
 
 /*========== OUR MISSION IMAGE ===========*/
 .ourmission {
-  padding-top: 69px;
+padding-top: 69px;
 background-image: url("img/img-mission-background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 700px;
+width: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 350px;
+
+}
+.image-textcontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 100%
+
+}
+
+.ourmission h2 {
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 15px;
+}
+
+.ourmission h4 {
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 15px;
 }
 
 /*========== Tea Of The Month ===========*/
