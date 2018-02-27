@@ -43,6 +43,7 @@ body {
 
 /*========== OUR MISSION IMAGE ===========*/
 .ourmission {
+  padding-top: 69px;
 background-image: url("img/img-mission-background.jpg");
 }
 
