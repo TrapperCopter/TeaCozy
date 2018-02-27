@@ -2,6 +2,8 @@
 .header-containter {
   position: fixed;
   background-color: black;
+  width: 100%;
+
 }
 .header-div {
   align-items: center;
@@ -11,8 +13,9 @@
   height: 69px;
 }
 .header-div img {
-  padding: 0px 50px 0px 10px;
+  padding: 0px 0px 0px 10px;
   margin-right: auto;
+  height: 50px;
 }
 .header-div span a {
   font-family: helvetica;
@@ -27,6 +30,7 @@
 /*========== Body ===========*/
 
 body {
+  margin-top: 0px;
   background-color: black;
   font-family: helvetica;
   font-size: 22px;
@@ -39,7 +43,9 @@ body {
 
 /*========== OUR MISSION IMAGE ===========*/
 .ourmission {
-
+background-image: url("img\img-mission-background.jpg");
+background-size: auto;
+background-repeat: no-repeat;
 }
 
 /*========== Tea Of The Month ===========*/
