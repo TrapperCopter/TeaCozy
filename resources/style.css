@@ -3,7 +3,7 @@
   position: fixed;
   background-color: black;
   width: 100%;
-
+  z-index: 6;
 }
 .header-div {
   align-items: center;
@@ -43,17 +43,16 @@ body {
 
 /*========== OUR MISSION IMAGE ===========*/
 .ourmission {
-padding-top: 69px;
+padding-top: 350px;
 background-image: url("img/img-mission-background.jpg");
-background-size: cover;
+background-size: contain;
 background-repeat: no-repeat;
 height: 700px;
-width: auto;
+width: 1200px;
 display: flex;
+margin: auto;
 align-items: center;
 flex-direction: column;
-padding-top: 350px;
-
 }
 .image-textcontainer {
   display: flex;
@@ -82,6 +81,49 @@ padding-top: 350px;
 }
 
 /*========== Tea Of The Month ===========*/
-.teaofthemonth {
+.header-text {
+  padding: 0;
+  margin: 0;
+}
 
+.teaofthemonth-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+  height: auto;
+  justify-content: space-between;
+  margin: auto;
+
+}
+.image-row-1-c-1 {
+background-image: url("img/img-mission-background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 200px;
+width:  300px;
+}
+.image-row-1-c-2 {
+background-image: url("img/img-spiced-rum.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 200px;
+width:  300px;
+}
+.image-row-1-c-3 {
+background-image: url("img/img-donut.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 200px;
+width:  300px;
+}
+
+.image-text h4 {
+  padding-top: 225px;
+}
+
+.teaimages {
+  width: 300px;
+  height: 200px;
 }
