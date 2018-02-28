@@ -81,21 +81,23 @@ justify-content: space-around;
   text-align: center;
   margin: 15px;
 }
+/*========== Tea Of The Month Section ===========*/
 
-/*========== Tea Of The Month ===========*/
-.header-text {
-  padding: 0;
-  margin: 0;
+
+/*========== Title bar Text ===========*/
+.header-text h2 {
+  margin: 60px auto 0px auto;
 }
-
+.header-text h4 {
+  margin: 15px auto 0px auto;
+}
+/*========== images ===========*/
 .teaofthemonth-image-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  text-align: center;
   width: 1000px;
   height: auto;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
 
 }
@@ -122,10 +124,64 @@ width:  300px;
 }
 
 .image-text h4 {
-  padding-top: 225px;
+  align-items: flex-end;
+  padding-top: 215px;
+
+}
+/*========== Spacing between images ===========*/
+.teaimages {
+
+padding: 0px 15px 45px 15px;
 }
 
-.teaimages {
+/*========== Locations ===========*/
+.spacer {
+  margin: 80px;
+}
+.locations-container {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url("img/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.locations-label {
+  margin: 0px 0px 15px 0px;
+  padding: 60px 0px 0px 0px;
+}
+
+.locations-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.location-box {
   width: 300px;
+  margin: 0px 20px 0px 20px;
+  background-color: black;
+  height: auto;
+  opacity: 1;
+}
+.location-box h2, h3{
+  padding: 10px;
+  margin: 0px;
+}
+
+/*========== Contact ===========*/
+.contact-container {
   height: 200px;
+}
+.contect-text h2 {
+  margin: 15px auto 0px auto;
+}
+.contect-text h4 {
+  margin: 15px auto 0px auto;
+}
+
+/*========== Contact ===========*/
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
