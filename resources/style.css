@@ -43,9 +43,9 @@ body {
 
 /*========== OUR MISSION IMAGE ===========*/
 .ourmission {
-padding-top: 350px;
+/* padding-top: 350px; */
 background-image: url("img/img-mission-background.jpg");
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
 height: 700px;
 width: 1200px;
@@ -53,13 +53,15 @@ display: flex;
 margin: auto;
 align-items: center;
 flex-direction: column;
+justify-content: space-around;
 }
 .image-textcontainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: black;
-  width: 100%
+  width: 1200px;
 
 }
 
